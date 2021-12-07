@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<plugin id="cordova-plugin-quick-fix-svc" version="1.0.0" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>cordova-plugin-quick-fix-svc</name>
+    <author>Elderov Ali (info@cyberkatze.de)</author>
+
+    <description>Quick fix for SVC(SafaariViewController) for Android 11+</description>
+    <keywords>cordova,android,svc,plugin</keywords>
+
+    <license>MIT</license>
+
+    <engines>
+        <engine name="cordova" version=">=10.0.0"/>
+        <engine name="cordova-android" version=">=10.0.0" />
+    </engines>
+
+    <platform name="android">
+        <config-file target="AndroidManifest.xml" parent="/manifest">
+            <queries>
+                <intent>
+                    <action android:name="android.support.customtabs.action.CustomTabsService" />
+                </intent>
+            </queries>
+        </config-file>
+    </platform>
+
+</plugin>
