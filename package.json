@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-quick-fix-svc",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Quick fix for SafaariViewController Plugin for supporting new ChromeTab query on Android 11+",
   "engines": {
     "cordova": ">=10.0.0",
@@ -16,5 +16,9 @@
     "platforms": [
       "android"
     ]
-  }
+  },
+  "license": "MIT",
+  "bugs": "https://github.com/WuglyakBolgoink/cordova-plugin-quick-fix-svc/issues",
+  "homepage": "https://github.com/WuglyakBolgoink/cordova-plugin-quick-fix-svc#readme",
+  "repository": "github:WuglyakBolgoink/cordova-plugin-quick-fix-svc"
 }

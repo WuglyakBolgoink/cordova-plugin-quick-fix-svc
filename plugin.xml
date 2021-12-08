@@ -4,9 +4,12 @@
     <author>Elderov Ali (info@cyberkatze.de)</author>
 
     <description>Quick fix for SVC(SafaariViewController) for Android 11+</description>
-    <keywords>cordova,android,svc,plugin</keywords>
+    <keywords>cordova,android,svc,SafaariViewController,plugin</keywords>
 
     <license>MIT</license>
+
+    <repo>https://github.com/WuglyakBolgoink/cordova-plugin-quick-fix-svc</repo>
+    <issue>https://github.com/WuglyakBolgoink/cordova-plugin-quick-fix-svc/issues</issue>
 
     <engines>
         <engine name="cordova" version=">=10.0.0"/>
